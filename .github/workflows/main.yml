@@ -9,4 +9,4 @@ jobs:
         uses: actions/checkout@v7.0.1
 
       - name: Step2
-        uses: dotnet run
+        run: dotnet run
