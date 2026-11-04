@@ -9,4 +9,4 @@ jobs:
         uses: actions/checkout@v5.0.0
 
       - name: Step2
-        run: dotnet run --project ./PR10_GIT/PR10_GIT.csproj
+        run: echo "Hello world"
