@@ -1,0 +1,12 @@
+name: actions
+on: push
+
+jobs:
+  Job1:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+
+      - name: Step2
+        uses: dotnet run
