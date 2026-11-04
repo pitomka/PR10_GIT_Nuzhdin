@@ -11,6 +11,7 @@ namespace PR10_GIT
         static void Main(string[] args)
         {
             Console.WriteLine(DateTime.Now);
+            Console.WriteLine("Нуждин ИС-24А");
         }
     }
 }
