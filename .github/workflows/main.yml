@@ -10,3 +10,4 @@ jobs:
 
       - name: Step2
         run: dotnet run
+        working-directory: ./PR10_GIT
